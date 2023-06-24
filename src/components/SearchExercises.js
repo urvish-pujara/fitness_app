@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 
-import { exerciseOptions, fetchData } from '../utils/fetchData';
-import HorizontalScrollbar from './HorizontalScrollbar';
-
-const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
+const SearchExercises = () => {
   const [search, setSearch] = useState('');
-  const [bodyParts, setBodyParts] = useState([]);
 
   // useEffect(() => {
   //   const fetchExercisesData = async () => {
@@ -49,8 +45,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
           placeholder="Search Exercises"
           type="text"
-        />e
-        <Button className="search-btn" sx={{ bgcolor: '#FF2625', color: '#fff', textTransform: 'none', width: { lg: '173px', xs: '80px' }, height: '56px', position: 'absolute', right: '0px', fontSize: { lg: '20px', xs: '14px' } }} >
+        />
+        <Button className="search-btn" sx={{ bgcolor: '#FF2625', color: '#fff', textTransform: 'none', width: { lg: '173px', xs: '80px' }, height: '56px', position: 'absolute', right: '0px', fontSize: { lg: '20px', xs: '14px' } }}>
           Search
         </Button>
       </Box>

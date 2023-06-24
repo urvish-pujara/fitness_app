@@ -4,9 +4,8 @@ import { Box, Stack, Typography } from '@mui/material';
 
 import { dummyData } from '../data/dummyData'; // Import the array of dummy exercises
 import ExerciseCard from './ExerciseCard';
-import Loader from './Loader';
 
-const Exercises = ({ bodyPart }) => {
+const Exercises = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [exercisesPerPage] = useState(6);
 
