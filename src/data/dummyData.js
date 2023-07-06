@@ -7,7 +7,7 @@ export const dummyData = [
     difficulty: 'Beginner',
     equipment: 'None',
     image: 'https://example.com/push-ups.jpg',
-    gifUrl: 'https://media.giphy.com/media/l3V0u7UKlT7WDC9DO/giphy.gif',
+    gifUrl: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTJ0cmFhdXJuaTMxNnZqOW4wczdhNmRnMHQxdTBmcThzMjdzOW5ucCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5t9IcXiBCyw60XPpGu/giphy.gif',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const dummyData = [
     difficulty: 'Intermediate',
     equipment: 'Barbell',
     image: 'https://example.com/squats.jpg',
-    gifUrl: 'https://media.giphy.com/media/jk7l7U3cBKb8a/giphy.gif',
+    gifUrl: 'https://media.tenor.com/1NY6qOs30XIAAAAC/goblet-squad.gif',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const dummyData = [
     difficulty: 'Beginner',
     equipment: 'None',
     image: 'https://example.com/plank.jpg',
-    gifUrl: 'https://media.giphy.com/media/3a97ziRSJGTqx3ZfR2/giphy.gif',
+    gifUrl: 'https://hips.hearstapps.com/hmg-prod/images/766/fitgif-friday-plank-knee-taps-slider-thumbnail-override-1503956161.gif?crop=1xw:0.786xh;center,top&resize=1200:*',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const dummyData = [
     difficulty: 'Intermediate',
     equipment: 'None',
     image: 'https://example.com/lunges.jpg',
-    gifUrl: 'https://media.giphy.com/media/xThtanBNkGxu1MWoWg/giphy.gif',
+    gifUrl: 'https://i0.wp.com/thumbs.gfycat.com/AltruisticFantasticCub-size_restricted.gif?w=1155&h=840',
   },
   {
     id: 5,
@@ -47,6 +47,6 @@ export const dummyData = [
     difficulty: 'Advanced',
     equipment: 'Pull-up bar',
     image: 'https://example.com/pull-ups.jpg',
-    gifUrl: 'https://media.giphy.com/media/8t6hGZ8bKkfR6nEQ1j/giphy.gif',
+    gifUrl: 'https://j.gifs.com/vlJr9V.gif',
   },
 ];

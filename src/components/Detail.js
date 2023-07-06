@@ -25,7 +25,7 @@ const Detail = ({ exerciseDetail }) => {
 
   return (
     <Stack gap="60px" sx={{ flexDirection: { lg: 'row' }, p: '20px', alignItems: 'center' }}>
-      <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
+      <img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTJ0cmFhdXJuaTMxNnZqOW4wczdhNmRnMHQxdTBmcThzMjdzOW5ucCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5t9IcXiBCyw60XPpGu/giphy.gif' alt={name} loading="lazy" className="detail-image" />
       <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
         <Typography sx={{ fontSize: { lg: '64px', xs: '30px' } }} fontWeight={700} textTransform="capitalize">
           {name}
